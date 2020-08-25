@@ -34,9 +34,9 @@ def get_qml_section(name, prefix, schema):
     :param: schema - color schema
     """
     lines = []
-    line = "    ##----------------------------------------------------------------------------"
+    line = "    //----------------------------------------------------------------------------"
     lines.append(line)
-    line = "    ## " + name + "\n"
+    line = "    // " + name + "\n"
     lines.append(line)
     for p in prefix:
         for k in schema.keys():
@@ -120,7 +120,7 @@ def write_module(schema, version, template):
     medium = get_qml_section('Medium saturation colors', ['m'], schema)
     low = get_qml_section('Low saturation colors', ['l'], schema)
     dark = get_qml_section('Dark theme', ['d'], schema)
-    black = get_qml_section('Black/White shades', ['blk'], schema)
+    black = get_qml_section('Black/white shades', ['blk'], schema)
     ui = get_qml_section('UI light, dark themes', ['ui'], schema)
 
     # update template content

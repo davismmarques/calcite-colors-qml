@@ -25,8 +25,8 @@ import QtQuick 2.9
  */
 Item {
 
-    ##----------------------------------------------------------------------------
-    ## Vibrant colors
+    //----------------------------------------------------------------------------
+    // Vibrant colors
 
     readonly property color vyy120: '#fff766'
     readonly property color vyy140: '#ffee33'
@@ -77,8 +77,8 @@ Item {
     readonly property color vyg160: '#96cc00'
     readonly property color vyg180: '#7fab00'
 
-    ##----------------------------------------------------------------------------
-    ## High saturation colors
+    //----------------------------------------------------------------------------
+    // High saturation colors
 
     readonly property color hyy010: '#fff7cc'
     readonly property color hyy020: '#fef3ad'
@@ -211,8 +211,8 @@ Item {
     readonly property color hbr090: '#3b2307'
     readonly property color hbr100: '#261400'
 
-    ##----------------------------------------------------------------------------
-    ## Medium saturation colors
+    //----------------------------------------------------------------------------
+    // Medium saturation colors
 
     readonly property color myy010: '#faf7dc'
     readonly property color myy020: '#f6f0c1'
@@ -345,8 +345,8 @@ Item {
     readonly property color mbr090: '#45311a'
     readonly property color mbr100: '#1f1306'
 
-    ##----------------------------------------------------------------------------
-    ## Low saturation colors
+    //----------------------------------------------------------------------------
+    // Low saturation colors
 
     readonly property color lyy010: '#f7f5e6'
     readonly property color lyy020: '#e7e4d1'
@@ -479,8 +479,8 @@ Item {
     readonly property color lbr090: '#3a332b'
     readonly property color lbr100: '#1a1611'
 
-    ##----------------------------------------------------------------------------
-    ## Dark theme
+    //----------------------------------------------------------------------------
+    // Dark theme
 
     readonly property color dbb410: '#47BBFF'
     readonly property color dbb420: '#00A0FF'
@@ -495,8 +495,8 @@ Item {
     readonly property color drr420: '#FE583E'
     readonly property color drr430: '#F3381B'
 
-    ##----------------------------------------------------------------------------
-    ## Black/White shades
+    //----------------------------------------------------------------------------
+    // Black/White shades
 
     readonly property color blk000: '#ffffff'
     readonly property color blk005: '#f8f8f8'
@@ -526,8 +526,8 @@ Item {
     readonly property color blk235: '#060606'
     readonly property color blk240: '#000000'
 
-    ##----------------------------------------------------------------------------
-    ## UI light, dark themes
+    //----------------------------------------------------------------------------
+    // UI light, dark themes
 
     readonly property color uiblue1: '#007ac2'
     readonly property color uiblue2: '#2890ce'
